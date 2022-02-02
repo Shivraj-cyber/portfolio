@@ -1,0 +1,186 @@
+
+
+
+.sidebar{
+    background-color: rgb(236, 230, 230);
+    height: 100vh;
+    transition: transform 0.3s ease-in ;
+    position: absolute;
+    
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 23px;
+    padding: 33px  0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(8, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: yellow;
+    width: 90vw;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+background-color: pink;
+height: 78vh;
+width: 80vw;
+margin: 41px auto;
+justify-content: space-around;
+display: flex;
+}
+
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{}
+.name{}
+.about{}
+.moreabout{}
+.buttons{margin-top: 34px;}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.devpic img{
+    height: 78vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    font-size: 20px;
+}
+.contactform h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+
+}
+
+.contactform form {
+    padding: 10px 0;
+    margin-left: 200px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.form-control{
+    border-radius: 3px;
+}
+
+.blogitem{
+    margin: 20px;
+}
+
+.blogitem button{
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.blogitem button:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+/* intro dot html page style */ 
+.intro h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px;
+}
+
+.intro p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.hundered{
+    width: 200px;
+}
+
+.fifty{
+    width: 100px;
+}
+
+.t5{
+    width: 50px;
+}
+
+.sidebargo { 
+    transform: translate(-442px, 0px);
+    position: absolute;
+}
+
+@media (max-width: 1000px) {
+   *{ background-color:orange;
+   }
+   .devpic{
+       display: none;
+   }
+}
+
+.hemburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 150px;
+}
